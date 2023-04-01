@@ -29,7 +29,7 @@ setup(
         "Framework :: Datasette",
         "License :: OSI Approved :: Apache Software License"
     ],
-    version=VERSION,
+    version=0.1,
     packages=["datasette_render_xlsx"],
     entry_points={"datasette": ["render_xlsx = datasette_render_xlsx"]},
     install_requires=["datasette", "xlsxwriter"],
